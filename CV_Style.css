@@ -1,0 +1,66 @@
+
+.section{
+    text-align: center;
+    text-shadow: 5px 5px 10px #f7f7f5;
+    
+}
+
+.section2{
+    border: 5px outset #bd063a;
+    border-radius: 10px; 
+    box-shadow: 7px 7px 10px #ff1c5c;
+
+}
+
+.link{
+    text-decoration: none ;
+    color: #1c6bff;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #27e90e;
+}
+
+
+/* unvisited link */
+.pmdf:link {
+    text-decoration: none;
+    color: #1c6bff;
+}
+  
+  /* visited link */
+.pmdf:visited {
+    color: rgb(209, 206, 206);
+}
+  
+  /* mouse over link */
+.pmdf:hover {
+    text-decoration: underline;
+    color: #27e90e;
+}
+  
+  /* selected link */
+.pmdf:active {
+    text-decoration: underline;
+    color: #000036;
+}
+body{
+    background-image: url("5026621.jpg");
+    background-color: #b3b3b2;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    color: #f7f7f5;
+}
+.emailfloat{
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.filefloat{
+    float: left;
+    margin-right: 5px;
+}
+
